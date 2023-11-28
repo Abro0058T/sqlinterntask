@@ -10,7 +10,7 @@ app.use(cors())
 const connection=require("./utilis/sqlConnection")
 connection.connect((err) => {
   if (err) throw err;
-  console.log('Connected!');
+  console.log('Connected kar mc!');
 });
 
 app.use('/api/',taskRouters)
